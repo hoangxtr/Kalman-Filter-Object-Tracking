@@ -1,12 +1,12 @@
-#Object Tracking Using Kalman Filter
+# Object Tracking Using Kalman Filter
 
-##Shahin Khobahi
+## Shahin Khobahi
 
-###I. Introduction
+### I. Introduction
 
 In this project, we are proposing an adaptive ﬁlter approach to track a moving object in a video. Currently, object tracking is an important issue in many applications such as video survelance, traﬃc management, video indexing, machine learning, artiﬁcial intelligence and many other related ﬁelds. As we will discuss in the following sections, moving object tracking can be interpreted as an estimation problem. Kalman ﬁlter is a powerful algorithm that can be used in the state estimation problems and that is the reason we used this method to estimate and predict the position of a moving object. In the ﬁrst stage of this project we use the background subtraction method to detect the moving object in the video and then we use the Kalman ﬁlter ro predict and estimate the next state of the object. <a href="" id="x1-3r2"></a>
 
-###II. Problem Formulation
+### II. Problem Formulation
 
 <a href="" id="x1-4r1"></a>
 
